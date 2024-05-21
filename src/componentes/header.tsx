@@ -6,12 +6,12 @@ import elon from '../../public/Avatar.png';
 function header() {
   return (
     <header>
-    <div className="flex justify-between w-[1410px] h-[85px] absolute left-[85px] bg-black px-[20px] py-[25px]">
-        <div className="flex justify-center text-center">
-            <Image src={logo} alt="Logo" width={180} height={70} className="h-12 mx-7" />
+    <div className="flex justify-between w-[360px] h-[75px] absolute left-0 bg-black px-[25px] py-[20px] sm:left-[85px] sm:w-[1355px]">
+        <div className="flex justify-between text-center">
+            <Image src={logo} alt="Logo" width={127.74} height={35} />
         </div>
         <div className="flex justify-center">
-            <Image src={elon} alt="imagenelon" width={70} height={70} className="h-12 w-12 rounded-full object-cover" />    
+            <Image src={elon} alt="imagenelon" width={45} height={45} />    
         </div>
 
     </div>
